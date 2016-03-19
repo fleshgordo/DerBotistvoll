@@ -18,9 +18,3 @@ token = auth.get_access_token(verifier=pin)
 accessTokenFile = open("accessTokens","w")
 accessTokenFile.write(token[0]+'\n')
 accessTokenFile.write(token[1]+'\n')
-
-# api = tweepy.API(auth)
-
-# public_tweets = api.home_timeline()
-# for tweet in public_tweets:
-#     print tweet.text

@@ -12,7 +12,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # Load text file
-filename=open("marx.txt",'r')
+filename=open("marx2.txt",'r')
 text=filename.readlines()
 text = ' '.join(text)
 filename.close()
