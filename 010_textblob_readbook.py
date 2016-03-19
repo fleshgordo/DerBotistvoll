@@ -1,14 +1,11 @@
 from textblob import TextBlob
 import tweepy, time, re
-
-consumer_key = "aH2uQg4ta49gqM2cTwQReT2Uo"
-consumer_secret = "Ror7TTREsKH7qzBGCaM0v2KTqvlTWfR1TUnWzghFkeaAyYMkmW"
-access_token = "709360177884086272-uEaqXZ5eEHBrfOdV7uYiI1Eyj7q7pT0"
-access_token_secret = "rZ3MJ0mvzZh1ZwOlUp4RBL6YX7dDfCbk4NdkqJ8lpLqiS"
+from config import config
 
 # Authenticate with Twitter
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+auth = tweepy.OAuthHandler(config['consumer_key'], config['consumer_secret'])
+auth.set_access_token(config['access_token'], config['access_token_secret'])
+
 api = tweepy.API(auth)
 
 # Load text file
