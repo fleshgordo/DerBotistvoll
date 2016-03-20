@@ -1,3 +1,5 @@
 .DS_Store
 config_secure.py
 *.pyc
+tmp_img/
+config.py
