@@ -28,9 +28,12 @@ print '-----------'
 print blob.sentences
 print '-----------'
 print blob.words
+print '-----------'
+
 for sentence in blob.sentences:
     print(sentence.sentiment)
 # 0.060
 # -0.341
+print '-----------'
 
-blob.translate(to="es")  # 'La amenaza titular de The Blob...'
+print blob.translate(to="es")  # 'La amenaza titular de The Blob...'

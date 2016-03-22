@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 
 specialPages = ["/wiki/Main_Page","/wiki/Help:Category","/wiki/Wikipedia:File_Upload_Wizard", "/wiki/Portal:Current_events","/wiki/Wikipedia:Community_portal","/wiki/Help:Contents","/wiki/Wikipedia:About","/wiki/Special:RecentChanges","/wiki/Special:RecentChangesLinked/","/wiki/Wikipedia:About","/wiki/Wikipedia:General_disclaimer"]
 driver = webdriver.Firefox()
-driver.get("https://en.wikipedia.org/wiki/Special:Random")
-
+#driver.get("https://en.wikipedia.org/wiki/Special:Random")
+driver.get("https://en.wikipedia.org/wiki/Art")
 while True:
 	time.sleep(2)
 	source = driver.page_source
