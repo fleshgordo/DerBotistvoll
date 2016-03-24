@@ -4,7 +4,7 @@ from selenium import webdriver
 import time
 import urllib
 
-query = "test"
+query = "brussels"
 
 driver = webdriver.Firefox()
 driver.get("https://images.google.com/")

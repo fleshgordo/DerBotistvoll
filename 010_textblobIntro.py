@@ -36,4 +36,4 @@ for sentence in blob.sentences:
 # -0.341
 print '-----------'
 
-print blob.translate(to="es")  # 'La amenaza titular de The Blob...'
+print blob.translate(to="fr")  # 'La amenaza titular de The Blob...'
