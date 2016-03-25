@@ -2,9 +2,14 @@
 
 Several web bot projects for course "Der Bot ist voll" using various python libraries (bs4, tweepy, selenium webdriver, wikiquote). Workshop held at Zhdk in March 2016. Follow us on @zhdkbot. Scripts have been tested on osX and GNU/Linux systems.
 
-## Installation
-	sudo easy_install pip (mac)
-	sudo apt-get install python-pip (linux)
+## Installation Mac
+	sudo easy_install pip
+	sudo pip install selenium
+	sudo pip install tweepy
+	sudo pip install bs4
+
+## Installation Linux
+	sudo apt-get install python-pip
 	sudo pip install selenium
 	sudo pip install tweepy
 	sudo pip install bs4
