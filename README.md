@@ -1,6 +1,6 @@
 # Der Bot ist voll
 
-Several web bot projects for course "Der Bot ist voll" using various python libraries (bs4, tweepy, selenium webdriver, wikiquote). Workshop held at Zhdk in March 2016. Follow us on @zhdkbot. Scripts have been tested on osX and GNU/Linux systems.
+Several web bot projects for course "Der Bot ist voll" using various python libraries (bs4, tweepy, selenium webdriver, wikiquote). Workshop held at Zhdk in March 2016. Follow us on [@zhdkbot](https://www.twitter.com/zhdkbot). Scripts have been tested on osX and GNU/Linux systems.
 
 ## Installation Mac
 	sudo easy_install pip
